@@ -1,3 +1,8 @@
+body{
+    background-color: black;
+}
+
+
 a{
     color:black
 }
@@ -80,10 +85,11 @@ a{
     height: 100px;
 }
 
+
 #below-nav{
     background-image: url("../img/Red\ is\ cool\ Yay.jpg");
-    background-color: rgb(255, 255, 255);
-    background-blend-mode: lighten;
+    background-color: rgba(255, 0, 0, 1);
+    background-blend-mode: darken;
 
     transition-duration: 500ms;
 
@@ -93,9 +99,11 @@ a{
     border-bottom-style: solid;
     border-bottom-width: 15px;
     border-bottom-color: black;
+    background-size: 200%;
 }
 
 #below-nav:hover{
+    background-size: 100%;
     background-color: rgba(255, 255, 255, 0);
 }
 
@@ -149,10 +157,12 @@ a{
     transition-duration: 500ms;
 
     width: 100%;
-    height: 1100px;
+    height: 300px;
+    background-size: 200%;
 }
 
 #bottom-img:hover{
+    background-size: 100%;
     background-color: rgba(255, 255, 255, 0);
 }
 
