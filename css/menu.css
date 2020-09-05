@@ -1,4 +1,6 @@
-
+a{
+    color:black
+}
 
 #nav-container{
     width: 60%;
@@ -13,7 +15,7 @@
 
     border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-bottom-color: black;
+    border-bottom-color: pink;
 }
 
 #nav-container{
@@ -23,7 +25,6 @@
 
 #nav-container a{
     float: left;
-    color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -46,13 +47,26 @@
 
     border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-bottom-color: black;
+    border-bottom-color: red;
 }
-
-
 
 .banner-image{
     height: 100px;
 }
 
+#below-nav{
+    background-color: rgb(255, 50, 50);
 
+    width: 100%;
+    height: 250px;
+}
+
+
+#home{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+
+    border-radius: 100px;
+    background: black;
+}
