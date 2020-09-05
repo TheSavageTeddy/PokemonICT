@@ -3,12 +3,12 @@ a{
 }
 
 #nav-container{
-    width: 80%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
 
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
 
     padding-top: 0.25%;
     padding-bottom: 0.25%;
@@ -18,15 +18,15 @@ a{
     border-bottom-color: black;
 }
 
-#nav-container{
-    background-color: white;
-    overflow: hidden;
-}
-
-#nav-home{
+#nav-about{
     border-bottom-style: solid;
     border-bottom-width: 5px;
     border-bottom-color: black;
+}
+
+#nav-container{
+    background-color: white;
+    overflow: hidden;
 }
 
 #nav-container a{
@@ -43,8 +43,7 @@ a{
 }
 
 
-
-#nav-about:hover, #nav-stats:hover, #nav-super:hover, #nav-home:hover{
+#nav-about:hover, #nav-stats:hover, #nav-super:hover{
     background-color: blue;
 }
 
@@ -89,7 +88,6 @@ a{
 }
 
 
-
 #home1{
     text-align: center;
     width: 200px;
@@ -129,10 +127,3 @@ a{
 
 
 
-#bottom-img{
-    width: 100%;
-    opacity: 100%;
-
-    position: relative;
-    top: -500px;
-}
