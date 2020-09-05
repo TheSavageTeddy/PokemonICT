@@ -130,9 +130,10 @@ a{
 
 
 #bottom-img{
-    width: 100%;
-    opacity: 100%;
+    background-image: url("../img/Cute\ Pokemon\ Wallpaper\ Random.jpg");
 
-    position: relative;
-    top: -500px;
+
+    width: 100%;
+    height: 1100px;
 }
+
