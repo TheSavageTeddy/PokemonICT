@@ -15,11 +15,11 @@ a{
 
     border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-bottom-color: pink;
+    border-bottom-color: black;
 }
 
 #nav-container{
-    background-color: #333;
+    background-color: white;
     overflow: hidden;
 }
 
@@ -31,9 +31,17 @@ a{
     font-size: 17px;
 }
 
-#nav-container a:hover{
-    background-color: #ddd;
-    color: black;
+
+#nav-about:hover, #nav-stats:hover, #nav-super:hover{
+    background-color: blue;
+}
+
+#nav-cute:hover{
+    background-color: pink;
+}
+
+#nav-strong:hover{
+    background-color: red;
 }
 
 
@@ -47,8 +55,11 @@ a{
 
     border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-bottom-color: red;
+    border-bottom-color: black;
 }
+
+
+
 
 .banner-image{
     height: 100px;
@@ -62,11 +73,35 @@ a{
 }
 
 
-#home{
+#home1{
     text-align: center;
     width: 200px;
     height: 200px;
 
     border-radius: 100px;
     background: black;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
+    top: -100px
 }
+
+#home2{
+    text-align: center;
+    width: 180px;
+    height: 180px;
+
+    border-radius: 90px;
+    background: white;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
+    top: -290px
+}
+
+
+
