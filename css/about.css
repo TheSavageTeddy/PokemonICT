@@ -96,6 +96,13 @@ a{
 
 .banner-image{
     height: 100px;
+    transition-duration: 300ms;
+    
+}
+
+.banner-image:hover{
+    height: 150px;
+
 }
 
 
