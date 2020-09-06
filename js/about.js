@@ -1,5 +1,5 @@
 function homepage(){
-    window.location.replace("../home.html");
+    window.location.replace("../menu.html");
 }
 
 function getHTML(id){
