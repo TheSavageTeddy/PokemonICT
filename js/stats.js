@@ -1,9 +1,9 @@
-function aboutpage(){
-    window.location.replace("../about.html");
+function homepage(){
+    window.location.replace("../menu.html");
 }
 
-function statspage(){
-    window.location.replace("../stats.html");
+function aboutpage(){
+    window.location.replace("../about.html");
 }
 
 function getHTML(id){
@@ -12,8 +12,8 @@ function getHTML(id){
 
 
 document.addEventListener('DOMContentLoaded', function () {
+    getHTML("nav-home").addEventListener('click', homepage);
     getHTML("nav-about").addEventListener('click', aboutpage);
-    getHTML("nav-stats").addEventListener('click', statspage);
 
 
 });
