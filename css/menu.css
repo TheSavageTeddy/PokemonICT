@@ -69,17 +69,17 @@ a{
 
 #nav-about:hover, #nav-stats:hover, #nav-super:hover, #nav-home:hover{
     background-color: blue;
-    
+    cursor: pointer;
 }
 
 #nav-cute:hover{
     background-color: pink;
-    
+    cursor: pointer;
 }
 
 #nav-strong:hover{
     background-color: red;
-
+    cursor: pointer;
 }
 
 

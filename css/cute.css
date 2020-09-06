@@ -84,10 +84,12 @@ p{
 
 #nav-cute:hover{
     background-color: pink;
+    cursor: pointer;
 }
 
 #nav-strong:hover{
     background-color: red;
+    cursor: pointer;
 }
 
 
