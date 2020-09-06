@@ -1,11 +1,13 @@
 body{
     background-color: black;
+    font-family: "Arial Black"
 }
 
 
 a{
     color:black
 }
+
 
 #nav-container{
     width: 80%;
