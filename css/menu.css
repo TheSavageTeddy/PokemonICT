@@ -151,8 +151,10 @@ a{
 
 #bottom-img{
     background-image: url("../img/Cute\ Pokemon\ Wallpaper\ Random.jpg");
-    background-color: rgba(255,255,255,1);
-    background-blend-mode: lighten;
+    background-color: rgb(255, 255, 255, 1);
+    filter: grayscale(100%);
+
+    background-blend-mode: normal;
 
     transition-duration: 500ms;
 
@@ -163,6 +165,7 @@ a{
 
 #bottom-img:hover{
     background-size: 100%;
+    filter: grayscale(0%);
     background-color: rgba(255, 255, 255, 0);
 }
 
