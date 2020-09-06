@@ -20,6 +20,16 @@ a{
     font-size: 50px;
 }
 
+#about-title{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+}
+
+p{
+    color: white
+}
+
 #nav-container{
     width: 80%;
     display: flex;
