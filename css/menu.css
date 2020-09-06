@@ -8,6 +8,17 @@ a{
     color:black
 }
 
+#title-text{
+    color: white;
+    font-size: 35px;
+    transition-duration: 300ms;
+}
+
+#title-text:hover{
+    color: white;
+    font-size: 50px;
+}
+
 
 #nav-container{
     width: 80%;
@@ -51,19 +62,24 @@ a{
     transition-duration: 200ms;
 }
 
+#nav-about:hover, #nav-stats:hover, #nav-super:hover, #nav-home:hover, #nav-cute:hover, #nav-strong:hover{
+    cursor: pointer;
 
+}
 
 #nav-about:hover, #nav-stats:hover, #nav-super:hover, #nav-home:hover{
     background-color: blue;
-    cursor: pointer;
+    
 }
 
 #nav-cute:hover{
     background-color: pink;
+    
 }
 
 #nav-strong:hover{
     background-color: red;
+
 }
 
 
@@ -85,6 +101,13 @@ a{
 
 .banner-image{
     height: 100px;
+    transition-duration: 300ms;
+    
+}
+
+.banner-image:hover{
+    height: 150px;
+
 }
 
 
