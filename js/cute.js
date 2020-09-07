@@ -29,6 +29,8 @@ function getHTML(id){
 
 
 document.addEventListener('DOMContentLoaded', function () {
+    
+
     getHTML("nav-home").addEventListener('click', homepage);
     getHTML("nav-stats").addEventListener('click', statspage);
     getHTML("nav-cute").addEventListener('click', cutepage);

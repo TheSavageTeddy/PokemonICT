@@ -1,3 +1,5 @@
+
+
 function homepage(){
     window.location.replace("../menu.html");
 }
@@ -27,8 +29,22 @@ function getHTML(id){
     return document.getElementById(id)
 }
 
+var playing = false
+
+function music(){
+    if (!playing){
+        playing = true
+        //play music
+    }else{
+        playing = false
+        //stop music
+    }
+}
+
 
 document.addEventListener('DOMContentLoaded', function () {
+    getHTML("title-text").addEventListener('click', music)
+
     getHTML("nav-home").addEventListener('click', homepage);
     getHTML("nav-stats").addEventListener('click', statspage);
     getHTML("nav-cute").addEventListener('click', cutepage);
