@@ -27,8 +27,24 @@ function getHTML(id){
     return document.getElementById(id)
 }
 
+var playing = false
+
+function music(){
+    if (!playing){
+        playing = true
+        getHTML("music").play()
+        getHTML("music-text").innerHTML = "▸ Now playing - Fortree City"
+    }else{
+        playing = false
+        getHTML("music").pause()
+        getHTML("music-text").innerHTML = "| | Paused - Fortree City"
+    }
+}
+
 
 document.addEventListener('DOMContentLoaded', function () {
+    getHTML("title-text").addEventListener('click', music)
+
     getHTML("nav-home").addEventListener('click', homepage);
     getHTML("nav-stats").addEventListener('click', statspage);
     getHTML("nav-cute").addEventListener('click', cutepage);
