@@ -26,18 +26,21 @@ function superpage(){
 
 
 function getHTML(id){
-    return document.getElementById(id)
+    return document.getElementById(id);
 }
 
-var playing = false
+var playing = false;
+
 
 function music(){
     if (!playing){
         playing = true
-        //play music
+        getHTML("music").play()
+        getHTML("music-text").innerHTML = "▸ Now playing - Route 29"
     }else{
         playing = false
-        //stop music
+        getHTML("music").pause()
+        getHTML("music-text").innerHTML = "| | Paused - Route 29"
     }
 }
 
