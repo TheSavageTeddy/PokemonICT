@@ -1,0 +1,257 @@
+body{
+    background-color: black;
+    font-family: "Arial Black"
+}
+
+p{
+    font-family: "Arial";
+}
+
+
+a{
+    color:black
+}
+
+
+#title-text{
+    color: white;
+    font-size: 35px;
+    transition-duration: 300ms;
+}
+
+#title-text:hover{
+    color: white;
+    font-size: 50px;
+}
+
+#about-title{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+}
+
+p{
+    color: white
+}
+
+#nav-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+    padding-top: 0.25%;
+    padding-bottom: 0.25%;
+
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: black;
+}
+
+#nav-container{
+    background-color: cornflowerblue;
+    overflow: hidden;
+}
+
+#nav-strong{
+    
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: black;
+}
+
+#nav-container a{
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+    background-color: rgb(205, 205, 205);
+
+    border-radius: 10px;
+    transition-duration: 200ms;
+}
+
+
+
+#nav-about:hover, #nav-stats:hover, #nav-super:hover, #nav-home:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+#nav-cute:hover{
+    background-color: pink;
+    cursor: pointer;
+}
+
+#nav-strong:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+
+#banner-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: black;
+}
+
+
+
+
+.banner-image{
+    height: 100px;
+    transition-duration: 300ms;
+    
+}
+
+.banner-image:hover{
+    height: 150px;
+
+}
+
+
+#below-nav{
+    background-image: url("../img/Red\ is\ cool\ Yay.jpg");
+    background-color: rgba(255, 0, 0, 1);
+    background-blend-mode: darken;
+
+    transition-duration: 500ms;
+
+    width: 100%;
+    height: 250px;
+
+    border-bottom-style: solid;
+    border-bottom-width: 15px;
+    border-bottom-color: black;
+    background-size: 200%;
+}
+
+#below-nav:hover{
+    background-size: 100%;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+
+
+#home1{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+
+    border-radius: 100px;
+    background: black;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
+    top: -115px
+}
+
+#home2{
+    text-align: center;
+    width: 170px;
+    height: 170px;
+
+    border-radius: 85px;
+    background: white;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
+    top: -300px
+}
+
+#home-text{
+    text-align: center;
+
+    position: relative;
+    top: -420px;
+}
+
+
+
+#bottom-img{
+    background-image: url("../img/Cute\ Pokemon\ Wallpaper\ Random.jpg");
+    background-color: rgb(255, 255, 255, 1);
+    filter: grayscale(100%);
+
+    background-blend-mode: normal;
+
+    transition-duration: 500ms;
+
+    width: 100%;
+    height: 300px;
+    background-size: 200%;
+}
+
+#bottom-img:hover{
+    background-size: 100%;
+    filter: grayscale(0%);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+
+#about-text-container{
+    /* center the thing */
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 20px;
+
+    width: 80%;
+}
+
+.mascot-image{
+    height: 250px
+}
+
+#mascot-image-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: black;
+}
+
+.links{
+    color:white
+}
+
+
+#statsimg{
+
+    padding-top: 40px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+
+
+
+}
+
+
+#cute-list{
+    padding-left: 40%;
+}
