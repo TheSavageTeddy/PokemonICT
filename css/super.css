@@ -247,7 +247,9 @@ p{
     margin-right: auto;
     width: 60%;
 
-
+    position: absolute;
+    top: 950px;
+    left: 450px;
 
 }
 
