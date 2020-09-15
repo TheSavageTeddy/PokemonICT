@@ -24,11 +24,28 @@ function superpage(){
 
 
 function getHTML(id){
-    return document.getElementById(id)
+    return document.getElementById(id);
+}
+
+var playing = false;
+
+
+function music(){
+    if (!playing){
+        playing = true
+        getHTML("music").play()
+        getHTML("music-text").innerHTML = "▸ Now playing - Champion Alder"
+    }else{
+        playing = false
+        getHTML("music").pause()
+        getHTML("music-text").innerHTML = "| | Paused - Champion Alder"
+    }
 }
 
 
 document.addEventListener('DOMContentLoaded', function () {
+    getHTML("title-text").addEventListener('click', music)
+
     getHTML("nav-home").addEventListener('click', homepage);
     getHTML("nav-stats").addEventListener('click', statspage);
     getHTML("nav-cute").addEventListener('click', cutepage);

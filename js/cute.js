@@ -1,3 +1,5 @@
+
+
 function homepage(){
     window.location.replace("../menu.html");
 }
@@ -24,12 +26,27 @@ function superpage(){
 
 
 function getHTML(id){
-    return document.getElementById(id)
+    return document.getElementById(id);
+}
+
+var playing = false;
+
+
+function music(){
+    if (!playing){
+        playing = true
+        getHTML("music").play()
+        getHTML("music-text").innerHTML = "▸ Now playing - Route 1"
+    }else{
+        playing = false
+        getHTML("music").pause()
+        getHTML("music-text").innerHTML = "| | Paused - Route 1"
+    }
 }
 
 
 document.addEventListener('DOMContentLoaded', function () {
-    
+    getHTML("title-text").addEventListener('click', music)
 
     getHTML("nav-home").addEventListener('click', homepage);
     getHTML("nav-stats").addEventListener('click', statspage);
