@@ -252,6 +252,12 @@ p{
 
 }
 
+#pokemon-stats a{
+    color: white;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 15px;
+}
 
 #cute-text{
     position: absolute; 
