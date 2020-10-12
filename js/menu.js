@@ -1,5 +1,3 @@
-
-
 function homepage(){
     window.location.replace("../menu.html");
 }
