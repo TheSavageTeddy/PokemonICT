@@ -253,5 +253,9 @@ p{
 
 
 #cute-list{
-    padding-left: 40%;
+    text-align: center;
+    position: absolute;
+    right: 40%;
+    top: 600px;
+    
 }
