@@ -253,7 +253,11 @@ p{
 
 
 #cute-list{
-    padding-left: 45%;
+    text-align: center;
+    position: absolute;
+    right: 45%;
+    top: 1200px;
+    
 }
 
 
