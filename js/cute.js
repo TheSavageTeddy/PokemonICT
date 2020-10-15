@@ -1,27 +1,26 @@
 
-
 function homepage(){
-    window.location.replace("../menu.html");
+    window.location.replace("./menu.html");
 }
 
 function aboutpage(){
-    window.location.replace("../about.html");
+    window.location.replace("./about.html");
 }
 
 function statspage(){
-    window.location.replace("../stats.html");
+    window.location.replace("./stats.html");
 }
 
 function cutepage(){
-    window.location.replace("../cute.html");
+    window.location.replace("./cute.html");
 }
 
 function strongpage(){
-    window.location.replace("../strong.html");
+    window.location.replace("./strong.html");
 }
 
 function superpage(){
-    window.location.replace("../super.html");
+    window.location.replace("./super.html");
 }
 
 
